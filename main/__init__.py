@@ -25,7 +25,7 @@ userbot = Client("saverestricted", session_string=SESSION, api_hash=API_HASH, ap
 
 try:
     userbot.start()
-except BaseExceptionas e:
+except BaseException as e:
     print(f"Userbot Error: {e} - Have you added SESSION while deploying??"):
     sys.exit(1)
 
